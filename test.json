@@ -1,0 +1,137 @@
+{
+	"global_response": {
+		"request_identifier": "abcb0f764ccf2b184f7fc0abcd",
+		"explanation_code": "BD0000",
+		"explanation_message": "Success",
+		"response_timestamp": "2016-08-04T11:13:54.688-0700"
+	},
+	"treatments": [{
+		"customer_treatment_status": "ELIGIBLE",
+		"component_treatments": [{
+			"component_identifier": "GSNPortal_1",
+			"treatment_metadata": [{
+				"treatment_identifier": "A00000K34U",
+				"domain": "Card",
+				"card_objects": [{
+					"card_number": "37xxxxxx1591001",
+					"cobrand_prtr_acct": "",
+					"financial_info": {
+						"cmv": "99999999",
+						"cr_cd": "",
+						"first_yr_pti": "",
+						"first_yr_revn": "",
+						"first_yr_spend": "1433.0",
+						"line_of_cr": "00000",
+						"prod_unit_metric": "00000000",
+						"scnd_yr_pti": "",
+						"scnd_yr_revn": ""
+					}
+				},
+				{
+					"card_number": "37xxxxxx6598000",
+					"cobrand_prtr_acct": "A0000000056789",
+					"financial_info": {
+						"cmv": "88888888",
+						"cr_cd": "",
+						"first_yr_pti": "",
+						"first_yr_revn": "",
+						"first_yr_spend": "10000.0",
+						"line_of_cr": "00000",
+						"prod_unit_metric": "00000000",
+						"scnd_yr_pti": "",
+						"scnd_yr_revn": ""
+					}
+				}],
+				"display_rank": 1,
+				"rsvp_cd": "WQ41",
+				"treatment_duration": {
+					"display_end_date": "2017-12-28"
+				},
+				"treatment_content": {
+					"treatment_name": "InternalAcquisition"
+				},
+				"additional_parameters": {
+					"treatment_score": "0.1234567890",
+					"cmpgn_in": "0",
+					"offr_ty": "1500026426",
+					"offr_sub_ty": "1500026437",
+					"bus_cd": "H5Y",
+					"bus_unit": "CCSG",
+					"triggers_and_true_needs": [{
+						"key_benefit": "Maximize your points by adding someone to your account",
+						"trigger": "No Trigger",
+						"trigger_score": "0.9234567890",
+						"transition_statement": "I noticed you don't have any additional cards...",
+						"true_need": "Control/Convenience",
+						"trigger_id": "111"
+					},
+					{
+						"key_benefit": "Promo APR",
+						"trigger": "High Spend",
+						"trigger_score": "0.1234567890",
+						"transition_statement": "As a valued Card Member with excellent payment history with us we’d like to extend...",
+						"true_need": "Borrowing",
+						"trigger_id": "111"
+					}]
+				}
+			}]
+		},
+		{
+			"component_identifier": "GSNPortal_2",
+			"treatment_metadata": [{
+				"treatment_identifier": "Z00000Y34A",
+				"domain": "Card",
+				"card_objects": [{
+					"card_number": "37xxxxxx1591002",
+					"cobrand_prtr_acct": "",
+					"financial_info": {
+						"cmv": "77777777",
+						"cr_cd": "",
+						"first_yr_pti": "",
+						"first_yr_revn": "",
+						"first_yr_spend": "1000.0",
+						"line_of_cr": "00000",
+						"prod_unit_metric": "00000000",
+						"scnd_yr_pti": "",
+						"scnd_yr_revn": ""
+					}
+				}],
+				"display_rank": 2,
+				"rsvp_cd": "WQ42",
+				"treatment_duration": {
+					"display_end_date": "2017-09-28"
+				},
+				"treatment_content": {
+					"treatment_name": "ExternalAcquisition"
+				},
+				"additional_parameters": {
+					"treatment_score": "0.1234567890",
+					"cmpgn_in": "1",
+					"offr_ty": "1500026426",
+					"offr_sub_ty": "1500026437",
+					"bus_cd": "K5Y",
+					"bus_unit": "PPSG",
+					"triggers_and_true_needs": [{
+						"key_benefit": "New Need",
+						"trigger": "No Trigger",
+						"trigger_score": "0.9234567890",
+						"transition_statement": "I noticed you don't have any additional cards...",
+						"true_need": "Control/Convenience",
+						"trigger_id": "222"
+					},
+					{
+						"key_benefit": "Promo RP",
+						"trigger": "High Spend",
+						"trigger_score": "0.1234567890",
+						"transition_statement": "As a valued Card Member with excellent payment history with us we’d like to extend...",
+						"true_need": "Borrowing",
+						"trigger_id": "222"
+					}]
+				}
+			}]
+		}]
+	}],
+	"customer_info": {
+		"cust_xref_id": "12556478xxxx"
+	}
+}
