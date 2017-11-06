@@ -1,3 +1,0 @@
-H5Y,CCSG,0,GSNPortal,2017-12-28,1,Card,Promo APR,1500026437,1500026426,WQ41,As a valued Card Member with excellent payment history with us we.d like to extend...,A00000K34U,InternalAcquisition,0.1234567890,High Spend,,0.1234567890,Borrowing
-H5Y,CCSG,0,GSNPortal,2017-12-28,1,Card,Promo APR,1500026437,1500026426,WQ41,As a valued Card Member with excellent payment history with us we.d like to extend...,A00000K34U,InternalAcquisition,0.1234567890,High Spend,,0.1234567890,Borrowing
-H5Y,CCSG,0,GSNPortal,2017-09-28,2,Card,Promo APR,1500026437,1500026426,WQ42,As a valued Card Member with excellent payment history with us we.d like to extend...,Z00000Y34A,InternalAcquisition,0.1234567890,High Spend,222,0.1234567890,Borrowing
